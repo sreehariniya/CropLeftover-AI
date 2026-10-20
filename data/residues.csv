@@ -1,0 +1,9 @@
+residue_key,category,source_status,source_note
+rice_straw,cereal_straw,unverified,Starter entry - verify with your State Agricultural University / ICAR before treating as verified
+coconut_husk,plantation,unverified,Starter entry - verify with Coconut Development Board or local agricultural office
+sugarcane_bagasse,agro_industrial,unverified,Starter entry - verify with a sugar mill or agricultural university
+maize_stalks,cereal_stalk,unverified,Starter entry - verify with your State Agricultural University / ICAR
+groundnut_shells,legume,unverified,Starter entry - verify with your State Agricultural University / ICAR
+cotton_stalks,fibre_crop,unverified,Starter entry - verify with a Krishi Vigyan Kendra (KVK) or agricultural university
+banana_waste,horticulture,unverified,Starter entry - verify with a horticulture department or KVK
+wheat_straw,cereal_straw,unverified,Starter entry - verify with your State Agricultural University / ICAR
