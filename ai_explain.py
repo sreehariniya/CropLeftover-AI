@@ -10,12 +10,12 @@ MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 
 
 def get_api_key() -> str | None:
-    key = os.environ.get("AQ.Ab8RN6KVVzq-pktaRRwjMKyALJpD9xtxEP-O7a-JShKyhohTIA")
+    key = os.environ.get("GEMINI_API_KEY")
     if key:
         return key
     try:  # Streamlit secrets (Community Cloud)
         import streamlit as st
-        return st.secrets.get("AQ.Ab8RN6KVVzq-pktaRRwjMKyALJpD9xtxEP-O7a-JShKyhohTIA")
+        return st.secrets.get("GEMINI_API_KEY")
     except Exception:
         return None
 
